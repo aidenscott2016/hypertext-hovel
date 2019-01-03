@@ -3,7 +3,12 @@
    "how to change link color." */
 
 body {
-  background-image: url('/images/minons.jpg');
+  background-image: url('./images/minons.jpg');
   color: black;
   font-family: 'Comic Sans', 'Comic Sans MS'
+}
+
+p {
+  background-color: yellow;
+  width: fit-content;
 }

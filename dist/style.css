@@ -10,5 +10,5 @@ body {
 
 p {
   background-color: yellow;
-  width: fit-content;
+  display: table;
 }

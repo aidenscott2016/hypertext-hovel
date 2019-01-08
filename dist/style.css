@@ -1,11 +1,15 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
+@font-face {
+  font-family: 'comic';
+  src: url('./fonts/comic-sans.woff')
+}
 
 body {
   background-image: url('./images/minons.jpg');
   color: black;
-  font-family: 'Comic Sans', 'Comic Sans MS'
+  font-family: comic;
 }
 
 p {
